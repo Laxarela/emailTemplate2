@@ -1,77 +1,245 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Template</title>
+<style type="text/css">
+	body {
+		margin: 0;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+    /* .wrapper{
+        width: 100%;
+        table-layout: fixed;
+      
+    }
+    .main{
+        margin :0 auto;
+        width: 100%;
+        max-width: 800px;
+        border-spacing: 0;
+        font-family: sans-serif;
 
-    <style>
-        body {
-            margin: 0;
-        }
+    } */
+ 
+    .two-columns{
+        width: 100%;
+        vertical-align: top;  
+        display: inline-block;   
+    }
+  
 
-        table {
-            border-spacing: 0;
-        }
-
-        td {
-            padding: 0;
-        }
-
-        img {
-            border: 0;
-        }
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;;
-            padding-bottom: 30px;
-        }
-
-        .main {
-            width: 100%;
-            max-width: 600px;
-            background-color: #fff;
-            text-align: center;
-        }
-
-    </style>
+</style>
 </head>
+<body >
 
-<body>
-    </head>
-    <center class="wrapper">
-<!--banner-->
-        <table class="main" width="100%">
+    <center class="wrapper" style="   width: 100%; table-layout: fixed;">
+        <table class="main" style="  margin :0 auto;  width: 100%; max-width: 800px;border-spacing: 0;font-family: sans-serif; border: 2.5px solid black;" width = "100%" role="presentation" >
+           <!-- BANNER IMAGE --> 
+           <tr>
+        <td style="padding: 0;">
+                     <a href="https://www.quadracel.com/"><img src="./photos/Header_Image.png" alt="" width="100%" style="max-width: 800;"></a>
+                    
+                </td>
+            </tr>
+
+            <!--Second sector-->
             <tr>
-                <td style="padding: 1px  0 4px ;">
-                    <table width="100%">
+                <td style="padding: 0;">
+                    <table width = "80%" align="center">
                         <tr>
-                            <td>
-                                <img src="./photos/Header_Image.png">
+                            <td style="padding: 0;">
+                                <p>Please see Prescrbing Infrormation for Quadrecel <a href=" https://www.vaccineshoppe.com/medias/Prescribing-Information?context=bWFzdGVyfHJvb3R8NTU0OTR8YXBwbGljYXRpb24vcGRmfGhhZC9oZjcvODg2NDE4ODg1ODM5OC5wZGZ8OTEzNWRmM2ZkZmNjNWJhMmIxNTZiMTRlYjE3YTZkNGM0NTVhNDBkMmNiMzAyODUzYTExOGZmYzc0MDQ3NDIwMg" >
+                                    (49281-564-58</a> and  49281-564-88). </p>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td style="padding: 0;">
+                                <p>Please see full  <a href="">Important Safety Information</a> for Quadracel below</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: #eb51a5;font-weight:bold; padding: 0;">
+								<p>
+									{{customText[Hello|Good Morning|Good Afternoon|Dear]}} <br> {{customText Mr., Mrs., Ms., Dr.,[First and/orLast Name]}}
+								</p>
+								<p>
+									{{customText Introduction line}}
+								</p>
+							</td>
+                        </tr>
+                        <tr >
+                             <td style="padding: 0;"></td>
+								<p style="font-size: 18px;color:#606060;">
+									Quadracel Vero formulation<sup>1</sup> in PREFILLED SYRINGE will be available to
+									order soon. Sanofi Pasteur is commmitted to advancing the experience of protection
+									for your practice:
+								</p>
+							</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0;">
+                            <h3 style="color: #505050;">INDICATION</h3>
+                           </td>
+                        </tr>
+                        <tr>
+							<td  style="font-size: 18px;color:#606060; padding: 0;">
+								Quadracel is indicated for active immunization against diphtheria, tetanus,
+								pertussis, and poliomyelitis. A single dose of Quadracel is approved for use
+								in children 4 through 6 years of age as a fifth dose in the diphtheria, tetanus,
+								pertussis vaccination (DaP) series, and as a fourth or fifth dose in the
+								inactivated poliovirus vaccination (IPV) series, in children who have received
+								4 doses of Pentacel® (Diphtheria and Tetanus Toxoids and cellular Pertussis
+								Adsorbed, Inactivated Poliovirus and Haemophilus b Conjugate (Tetanus
+								Toxoid Conjugate] Vaccine) and/or DAPTACEL® (Diphtheria and Tetanus
+								Toxoids and Acellular Pertussis Vaccine Adsorbed).
+							</td>
+						</tr>
+                        <tr>
+							<td style="padding: 0;">
+								<h3 style="color: #505050;">IMPORTANT SAFETY INFORMATION</h3>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-size: 18px;color:#606060; padding: 0;">
+								Contraindications to vaccination with Quadracel include: a severe allergic
+								reaction (e.g., anaphylaxis) to any ingredient of Quadracel or following any
+								other diphtheria toxoid-, tetanus toxoid-, or pertussis antigen-containing
+								vaccine, or inactivated poliovirus vaccine; encephalopathy within 7 days after a
+								previous dose of a pertussis antigen-containing vaccine with no other
+								identifiable cause; or a progressive neurologic disorder.
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 0;">
+								<h3 style="color: #505050;">Please see Important Safety Information continued below. Please see Prescribing
+									Information For Quadracel ( <a
+										href="https://www.vaccineshoppe.com/medias/Prescribing-Information?context=bWFzdGVyfHJvb3R8NTU0OTR8YXBwbGljYXRpb24vcGRmfGhhZC9oZjcvODg2NDE4ODg1ODM5OC5wZGZ8OTEzNWRmM2ZkZmNjNWJhMmIxNTZiMTRlYjE3YTZkNGM0NTVhNDBkMmNiMzAyODUzYTExOGZmYzc0MDQ3NDIwMg"
+										style="color:#3978b6 ;">49282-564-58</a> and <a
+										href="https://www.vaccineshoppe.com/medias/Prescribing-Information?context=bWFzdGVyfHJvb3R8NTU0OTR8YXBwbGljYXRpb24vcGRmfGhhZC9oZjcvODg2NDE4ODg1ODM5OC5wZGZ8OTEzNWRmM2ZkZmNjNWJhMmIxNTZiMTRlYjE3YTZkNGM0NTVhNDBkMmNiMzAyODUzYTExOGZmYzc0MDQ3NDIwMg"
+										style="color:#3978b6 ;">49282-564-88</a>).</h3>
+							</td>
+						</tr>
+                    </table>
+                </td>
+            </tr>
+            <!--images-->
+            <tr align="center">
+                <td style="padding: 0;">
+                    <table width = "80%">
+                        <tr>
+                            <td style="padding-right:20px; padding-top: 20px;">
+                                <img src="./photos/calendar.png">
+                            </td>
+                            <td style="font-size: 18px;color:#606060; padding: 0;">
+                                By using Quadracel, a combination booster dose, you can
+                                complete the DaP/IPV immunization series with one less
+                                injection and vaccine in your refrigerator<sup>2-4</sup>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-right:20px;  padding-top: 20px;">
+                                <img src="./photos/syringe.png">
+                            </td>
+                            <td style="font-size: 18px;color:#606060; padding: 0;">
+                                Using Sanofi Pasteur TaP antigen-containing vaccines and
+                                Quadracel together, you can have continuity of DTaP
+                                antigens across the 5-dose series<sup>2,5,6</sup>
+                            </td>
+                        </tr>
+                        <td style="padding-right:20px;  padding-top: 20px; padding-bottom: 20px;">
+                            <img src="./photos/bandaid.png">
+                        </td>
+                        <td style="font-size: 18px;color:#606060; padding: 0;">
+                            Quadracel allows you to complete the DTaP/IPV
+                            immunization series with a combination booster dose for
+                            4-to-6 years old<sup>3,7</sup>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                    <!-- <tr>
+                        <td>
+                            <table>
+
+                            </table>
+                        </td>
+                    </tr> -->
+
+                    </table>
+                </td>
+            </tr>
+
+            <!--Footer-->
+            <tr style="background-color: rgb(238, 234, 234);">
+                <td style="padding: 0;">
+                    <table class="footer" width = "80%" align="center">
+                        <tr>
+                            <td class="footer-banner" style="padding: 0;">
+                                <h4> <span style="color: #eb51a5; font-family: 'Open Sans', sans-serif;"> < Variable 9 Colorado Prescribers may click <a href="https://www.sanofi.us/"> here</a>  
+                                    for Wholesale Asquisition Cost Price Disclosure Information > </span></h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0;">
+                                <p style="word-spacing: 1px;"> <a href="https://www.sanofi.com/en/legal-notice">Legal Disclaimer Information </a> and 
+                                    <a href="https://www.sanofi.com/en/our-responsibility/sanofi-global-privacy-policy">Privacy Policy.</a> Questions or comments ?
+                                     <a href="https://www.vaccineshoppe.com/us/vsh/en/USD/faq"> Click here</a> to contact us or call 1-800-VACCINE (1-800-822-2463).
+                                    This email is intended for use by US Healthcare Professionals Only</p>
+                            </td>
+                        </tr>
+                        <tr class="two-colums">
+                            <td style="padding: 0;">	
+                               <table width = "80%">
+                                   <tr>
+                                       <td class="two-columns" style="padding: 0;">
+                                           <table class="colum" width="80% ">
+                                               <tr>
+                                                <td style="padding: 0;">
+                                                    <p>SANOFI PASTEUR. Discovery Drive. Swiftwater, Pennsylvania 18370. <a href="https://www.sanofi.us/" style="color:#3978b6 ;">www.sanofi.us</a>  <br>
+                                                        MAT-US-2110264-V1.0-11/2021 <span style="text-align: right;">&copy; 2021 Sanofi Pasteur Inc.</span>
+                                                    </p>
+                        
+                                                </td>
+                                               </tr>
+                                               
+                                           </table>
+                                     
+
+                                       </td>
+                                   </tr>
+                                   
+                               </table >
+                           </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0;">
+                                <img src="./photos/SANOFI_Pasteur_logo.png">
+
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-            <!--second section-->
-            <tr>
-                <td style="padding:  0px 5px 50px; ">
-                    <table width="100%">
-                        <tr>
-                            <td style="text-align: center; ">
-                                <h3>Please see Prescrbing Infrormation for Quadrecel()</h3>
-                              
-                            </td>
-                        </tr>
-    
-                    </table>
-                </td>
-            </tr>
+
+
         </table>
 
 
-</body>
 
-</html>
+</center>
+
+
+
+</body>
